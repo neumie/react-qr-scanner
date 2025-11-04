@@ -12,8 +12,8 @@ export default function ZoomInIcon(props: IZoomInProps) {
 
 	const style = {
 		cursor: disabled ? 'default' : 'pointer',
-		stroke: disabled ? 'grey' : 'yellow',
-		fill: disabled ? 'grey' : 'yellow',
+		stroke: disabled ? 'grey' : 'white',
+		fill: disabled ? 'grey' : 'white',
 		...props.style,
 	};
 

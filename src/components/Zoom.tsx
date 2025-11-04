@@ -36,6 +36,13 @@ export default function Zoom(props: IZoomProps) {
 					position: 'absolute',
 					zIndex: 2,
 					cursor: 'pointer',
+					backgroundColor: '#2563eb',
+					borderRadius: '50%',
+					padding: '8px',
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					opacity: value <= capabilities.min ? 0.5 : 1,
 				}}
 			>
 				<ZoomOutIcon
@@ -50,6 +57,13 @@ export default function Zoom(props: IZoomProps) {
 					position: 'absolute',
 					zIndex: 2,
 					cursor: 'pointer',
+					backgroundColor: '#2563eb',
+					borderRadius: '50%',
+					padding: '8px',
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					opacity: value >= capabilities.max ? 0.5 : 1,
 				}}
 			>
 				<ZoomInIcon

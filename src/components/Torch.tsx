@@ -26,6 +26,12 @@ export default function Torch(props: ITorchProps) {
 				position: 'absolute',
 				zIndex: 2,
 				cursor: 'pointer',
+				backgroundColor: '#2563eb',
+				borderRadius: '50%',
+				padding: '8px',
+				display: 'flex',
+				alignItems: 'center',
+				justifyContent: 'center',
 			}}
 		>
 			{status ? (
